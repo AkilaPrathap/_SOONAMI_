@@ -18,6 +18,8 @@ Although there are many tutorials on how to engage with exercises, people are fi
 
 The purpose of the project is to design and develop a  mobile application that tracks posture and gives user a feedback about their posture is accurate or not.
 
+## Data Requirements
+
 ## Technologies
 
 1. Python
