@@ -142,7 +142,7 @@ class _OnboardingPageState extends State<MyHomePage> {
                       Lottie.asset("lotties/offline.json"),
                       const SizedBox(height: 30,),
                       const Text(
-                        'Works Offline! ',
+                        'No Internet? ',
                         style: TextStyle(
                             fontSize: 25.0,
                             fontWeight: FontWeight.bold,
@@ -152,7 +152,7 @@ class _OnboardingPageState extends State<MyHomePage> {
                       ),
                       const SizedBox(height: 30,),
                       const Text(
-                          "No Internet? Don't worry we got your back. posture.io can identify your posture completely offline.",
+                          "No Internet? Make sure you are always connected to internet when using click posture.",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 15.0,

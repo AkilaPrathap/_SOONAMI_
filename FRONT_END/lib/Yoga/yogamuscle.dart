@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sdgp_ui/Workout/captureImg.dart';
 
-import 'captureImg.dart';
 
 class Yogamuscle extends StatelessWidget {
 
@@ -55,7 +55,7 @@ class Yogamuscle extends StatelessWidget {
                       children: [
                         FlatButton(
                           onPressed: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context) => captureImageYoga()));
+                            Navigator.push(context, MaterialPageRoute(builder: (context) => captureImage()));
                           },
                           color: Colors.grey[900],
                           child: const Text(
@@ -71,7 +71,7 @@ class Yogamuscle extends StatelessWidget {
                         SizedBox(width: 40.0,),
                         FlatButton(
                           onPressed: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context) => captureImageYoga()));
+                            Navigator.push(context, MaterialPageRoute(builder: (context) => captureImage()));
                           },
                           color: Colors.grey[900],
                           child: const Text(
@@ -114,7 +114,7 @@ class Yogamuscle extends StatelessWidget {
                           children: [
                             FlatButton(
                               onPressed: () {
-                                Navigator.push(context, MaterialPageRoute(builder: (context) => captureImageYoga()));
+                                Navigator.push(context, MaterialPageRoute(builder: (context) => captureImage()));
                               },
                               color: Colors.grey[900],
                               child: const Text(
@@ -130,7 +130,7 @@ class Yogamuscle extends StatelessWidget {
                             SizedBox(width: 45.0,),
                             FlatButton(
                               onPressed: () {
-                                Navigator.push(context, MaterialPageRoute(builder: (context) => captureImageYoga()));
+                                Navigator.push(context, MaterialPageRoute(builder: (context) => captureImage()));
                               },
                               color: Colors.grey[900],
                               child: const Text(
@@ -176,7 +176,7 @@ class Yogamuscle extends StatelessWidget {
                                 const SizedBox(height: 5.0,),
                                 FlatButton(
                                   onPressed: () {
-                                    Navigator.push(context, MaterialPageRoute(builder: (context) => captureImageYoga()));
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) => captureImage()));
                                   },
                                   color: Colors.grey[900],
                                   child: const Text(
@@ -192,7 +192,7 @@ class Yogamuscle extends StatelessWidget {
                                 SizedBox(width: 25.0,),
                                 FlatButton(
                                   onPressed: () {
-                                    Navigator.push(context, MaterialPageRoute(builder: (context) => captureImageYoga()));
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) => captureImage()));
                                   },
                                   color: Colors.grey[900],
                                   child: const Text(

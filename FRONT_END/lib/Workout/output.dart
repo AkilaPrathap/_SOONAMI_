@@ -16,19 +16,7 @@ class _DisplayOutputState extends State<DisplayOutput> {
     final path = 'Outputs/young-fitness-man-studio.jpg';
 
     final ref = FirebaseStorage.instance.ref().child(path).getDownloadURL();
-
-
   }
-  // Future<Widget> _getImage(BuildContext context, String imageName) async {
-  //   Image image;
-  //   await FireStorageService.loadImage(context, imageName).then((value) {
-  //     image = Image.network(
-  //         value.toString(),
-  //         fit: BoxFit.scaleDown,
-  //     );
-  //   });
-  //   return image;
-  // }
 
   @override
   Widget build(BuildContext context) {
@@ -56,7 +44,14 @@ class _DisplayOutputState extends State<DisplayOutput> {
                   Container(
                     width: MediaQuery.of(context).size.width / 1.2,
                     height: MediaQuery.of(context).size.width / 1.2,
-                    child: Image.network("https://firebasestorage.googleapis.com/v0/b/posture-io.appspot.com/o/Outputs%2Fyoung-fitness-man-studio.jpg?alt=media&token=a55682d1-3699-452b-b7ad-9572542e1e73"),
+                    child: Image.network("https://firebasestorage.googleapis.com/v0/b/posture-io.appspot.com/o/Outputs%2FImage.PNG?alt=media&token=c05449d6-6ce5-42e4-835a-757c298faf70"),
+                ),
+              SizedBox(height: 20.0,),
+                RichText(
+                    text: const TextSpan(
+                      text: "Green colour lines show the correct movements\n Purple colour lines show the incorrect movements",
+                      style: TextStyle(color: Colors.white, fontSize: 12,),
+                    )
                 ),
               SizedBox(height: 20.0,),
               FlatButton.icon(
@@ -78,10 +73,4 @@ class _DisplayOutputState extends State<DisplayOutput> {
   }
 }
 
-// class FireStorageService extends ChangeNotifier{
-//   FireStorageService();
-//   static Future<dynamic> loadImage(BuildContext context, String Image) async{
-//     return await FirebaseStorage.instance.ref().child(Image).getDownloadURL();
-//   }
-// }
 
