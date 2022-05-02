@@ -1,0 +1,8 @@
+Flask==2.1.1
+pyrebase4
+tensorflow==2.8.0
+opencv-python~=4.5.5.64
+firebase~=3.0.1
+matplotlib~=3.5.1
+ipython~=8.3.0
+numpy~=1.22.3
