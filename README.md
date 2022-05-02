@@ -19,7 +19,7 @@ Although there are many tutorials on how to engage with exercises, people are fi
 The purpose of the project is to design and develop a  mobile application that tracks posture and gives user a feedback about their posture is accurate or not.
 
 ## Data Requirements
-The project is based on machine learning.
+The project is based on machine learning. we did not have proper existing data set before, but finally found this data set. this is the data set which used for this project
 Data set - https://www.kaggle.com/datasets/elysian01/yoga-pose-classification
 
 ## Technologies
